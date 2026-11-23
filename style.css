@@ -1,0 +1,70 @@
+.navbar {
+      background-color: #f4a6c1;
+    }
+.navbar-brand {
+      color: #702040;
+    }
+.nav-link {
+      color: #702040;}
+body{background-color: white;}
+.card {border: 2px solid #f3a6c5 ;
+            border-radius: 15px;
+            background: white;
+            height: 100%;}
+p,li{color: #702040;}
+h4,h6,h5{color: #702040;}
+.info-card .card-img-start,
+.info-card .card-img-end {
+    width: 190px;
+    height: 270px;
+    object-fit: cover;}
+.info-card .card-body {padding: 25px;}
+
+.info-card .card-title {
+    color: #ffffff;
+    margin-bottom: 15px;}
+.info-card .card-text,
+.info-card li {
+    color:#702040;
+    line-height: 1.6;}
+.info-card h5 {
+    color:#702040;}
+details{color: white;}
+h5{color: #702040;}
+summary{color: #702040;}
+.accordion {background-color:#f4a6c1;}
+.accordion-item {background-color: white;
+    color:#702040}
+.accordion-header {background-color: white;
+    color: #702040;}
+.card {
+    max-width: 700px;
+    margin: 30px auto;}
+
+.card-body {
+    padding: 20px 25px;
+}
+
+.card-img-bottom {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    hr {border: none;
+    background-color: #e75491;
+    opacity: 1;
+    width: 100%;
+   }
+}
+.poslednikarta.jpg {max-height: 20px;}
+@media (max-width: 650px) {
+    .info-card.card-row {
+        flex-direction: column;
+    }
+
+    .info-card .card-img-start,
+    .info-card .card-img-end {
+        width: 100%;
+        height: 190px;
+    }
+}
+
